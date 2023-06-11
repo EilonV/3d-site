@@ -1,0 +1,34 @@
+.contact {
+    position: absolute;
+    bottom: 0;
+    margin: 15px;
+    display: flex;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+
+    a {
+        display: flex;
+        width: 20px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+
+        path {
+            fill: purple;
+        }
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+
+        img {
+            width: 100%;
+           filter: grayscale(100%);
+        }
+    }
+
+
+}
